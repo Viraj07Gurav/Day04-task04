@@ -54,9 +54,21 @@ button{
 img{
     transform: skewY(8deg);
 }
-@media only screen and (max-width:376px){
+@media only screen and (max-width:376px) and (min-width:346px) {
     .btn {
       font-size: 13px; /* Adjust the font size */
     }
   }
+  @media only screen and (max-width:346px) and (min-width:320px) {
+    .btn {
+      font-size: 10px; /* Adjust the font size */
+      font-weight: 600;
+    }
+  }
+@media (max-width:320px) {
 
+      .btn {
+      font-size: 8.5px; /* Adjust the font size */
+      font-weight:600;
+    }
+}
