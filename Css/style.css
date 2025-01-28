@@ -54,7 +54,7 @@ button{
 img{
     transform: skewY(8deg);
 }
-@media only screen and (max-width:376px) and (min-width:320px) {
+@media only screen and (max-width:376px){
     .btn {
       font-size: 13px; /* Adjust the font size */
     }
